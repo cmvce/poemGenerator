@@ -5,14 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poem Generator</title>
+    <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
-    <footer>
-        This AI project was coded by <a href="http://https://github.com/cmvce" target="_blank"> Coleene Acevedo</a>,
-        open-sourced on
-        Github and is hosted on <a href="https://tiny-pony-b02524.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+    <div class="container">
+        <header>
+            <h1>
+                Welcome to the poem generator!
+            </h1>
+        </header>
+        <main>
+            <form>
+                <input type="text" class="instructions" placeholder="Enter a poem..." autofocus required
+                    autocomplete="off">
+                <input type="submit" class="submit-button">
+            </form>
+            <div class="poem">
+                the poem will go here
+                <br>
+                It is the saddest day
+            </div>
+        </main>
+        <footer>
+            This AI project was coded by <a href="http://https://github.com/cmvce" target="_blank"> Coleene Acevedo</a>,
+            open-sourced on
+            Github and is hosted on <a href="https://tiny-pony-b02524.netlify.app/" target="_blank">Netlify</a>
+        </footer>
+    </div>
+
+    <script src="src/index.js"></script>
 </body>
 
 </html>
